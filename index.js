@@ -4,7 +4,13 @@ const inquirer = require("inquirer");
 // Create an empty array list to store employee objects
 
 // Gather manager data
-inquirer.prompt([]);
+inquirer.prompt([
+  {
+    type: "input",
+    message: "hello",
+    name: "managerInfo",
+  },
+]);
 //  THEN Build a manager object
 
 // Gather Engineer data
